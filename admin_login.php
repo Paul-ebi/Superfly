@@ -51,7 +51,7 @@ body {
   	width: 100%;
   	padding: 15px;
  	margin-top: 20px;
-  	background-color: red;
+  	background-color: #3274d6;
   	border: 0;
   	cursor: pointer;
   	font-weight: bold;
@@ -59,7 +59,7 @@ body {
   	transition: background-color 0.2s;
 }
 .login form input[type="submit"]:hover {
-	background-color: rgb(163, 86, 86);
+	background-color: #2868c7;
   	transition: background-color 0.2s;
 }
         </style>
@@ -91,9 +91,8 @@ body {
 	</head>
 	<body>
 		<div class="login">
-        
-			<h1><img src="images/logo.png" alt="Company Name" class="logo"><br>Login</h1>
-			<form action="authenticate.php" method="post">
+		<h1><img src="images/admin.png" alt="Company Name" class="logo"><br>Admin Login</h1>
+			<form action="admin_authenticate.php" method="post">
 				<label for="username">
 					<i class="fas fa-user"></i>
 				</label>
@@ -102,10 +101,8 @@ body {
 					<i class="fas fa-lock"></i>
 				</label>
 				<input type="password" name="pass" placeholder="Password" id="pass" required>
-				<a href="register.html">Register</a>
-                <input type="submit" name="submit" value="Login">
-                </form>
-            
+				<input type="submit" name="submit" value="Login">
+			</form>
 		</div>
 	</body>
 </html>

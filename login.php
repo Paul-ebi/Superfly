@@ -10,11 +10,16 @@
   	-moz-osx-font-smoothing: grayscale;
 }
 body {
-  	background-color: #435165;
+  	/*background-color: #435165;*/
+	background-image: url('images/login_bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 .login {
   	width: 400px;
   	background-color: #ffffff;
+	opacity: 0.7;
   	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
   	margin: 100px auto;
 }
@@ -92,7 +97,7 @@ body {
 	<body>
 		<div class="login">
         
-			<h1><img src="images/logo.png" alt="Company Name" class="logo"><br>Login</h1>
+			<h1><img src="images/logo.png" alt="Company Name" class="logo"><br>Uhuru Travel & Tours</h1><h2><center>Login</center></h2>
 			<form action="authenticate.php" method="post">
 				<label for="username">
 					<i class="fas fa-user"></i>
